@@ -1,0 +1,32 @@
+.quill{
+    border-radius: 16px;
+    background-color: #fff;
+    /* border: none; */
+    border: 1px solid #ddd;
+}
+
+
+.ql-toolbar.ql-snow{
+    border:none;
+    border-bottom: 1px solid #ddd;
+    
+    
+    .ql-formats{
+        display: flex;
+        gap: 12px;
+    }
+}
+
+
+.ql-toolbar{
+    border: none;
+}
+
+.ql-container.ql-snow{
+    border: none;
+}
+
+.ql-editor{
+    min-height: 500px;
+
+}
