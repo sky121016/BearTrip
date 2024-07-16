@@ -15,33 +15,31 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-    width: 100%;
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-`
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 export const Title = styled.input`
-    width: 600px;
-    height: 40px;
-    border:none;
-    border-radius: 16px;
-    color: #222;
-    background-color: transparent;
-    border: 1px solid #222;
-    font-family: 'GmarketSansMedium';
-    font-size:16px;
-    padding:0;
-    padding-left: 16px;
+  width: 600px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  color: #222;
+  background-color: transparent;
+  border: 1px solid #222;
+  font-family: "GmarketSansMedium";
+  font-size: 16px;
+  padding: 0;
+  padding-left: 16px;
 
-    &:focus{
-        outline: none;
-    }
-    
-    &::placeholder{
-        color:#aaa;
+  &:focus {
+    outline: none;
+  }
 
-    }
-`
+  &::placeholder {
+    color: #aaa;
+  }
+`;

@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <M.Wrapper>
       <M.Header>
-        <M.Title>My Calendar</M.Title>
+        {/* <M.Title>My Calendar</M.Title> */}
 
       </M.Header>
       <M.CalendarWrapper>
